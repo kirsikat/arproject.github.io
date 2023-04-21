@@ -1,23 +1,20 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-  <meta charset="UTF-8"> 
-  <title>Пошук інформації для студентів</title> 
-  <link rel="stylesheet" href="styles.css"> 
-</head> 
-<body> 
-  <header> 
-    <h1>Пошук інформації для студентів</h1> 
-  </header> 
-  <main> 
-    <form> 
-      <label for="search">Введіть запит:</label> 
-      <input type="text" id="search" name="search"> 
-      <button type="submit">Знайти</button> 
-    </form> 
-    <div id="results">  
-    </div> 
-  </main> 
-  <script src="script.js"></script> 
-</body> 
-</html>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'tab1')">Вкладка 1</button>
+  <button class="tablinks" onclick="openTab(event, 'tab2')">Вкладка 2</button>
+  <button class="tablinks" onclick="openTab(event, 'tab3')">Вкладка 3</button>
+</div>
+
+<div id="tab1" class="tabcontent">
+  <h3>Вкладка 1</h3>
+  <p>Тут можна розмістити довільний текст або інформацію.</p>
+</div>
+
+<div id="tab2" class="tabcontent">
+  <h3>Вкладка 2</h3>
+  <p>Тут можна розмістити довільний текст або інформацію.</p>
+</div>
+
+<div id="tab3" class="tabcontent">
+  <h3>Вкладка 3</h3>
+  <p>Тут можна розмістити довільний текст або інформацію.</p>
+</div>
